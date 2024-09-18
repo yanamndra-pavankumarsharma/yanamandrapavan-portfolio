@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yanamandra Pavan Kumar | Certifications</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #d6c9b5, #009688);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #004d40;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            padding: 14px 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #00796b;
+            color: white;
+        }
+
+        .container {
+            padding: 80px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #fff;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .certification-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 20px;
+            position: relative;
+            overflow: hidden;
+            animation: slideInUp 1s ease-in-out;
+        }
+
+        .certification-card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .certification-card p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004d40;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="skills.html">Technical Skills</a>
+    </div>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certification-card">
+                <h3>Python Web Development Pro</h3>
+                <p>Flask, Django, HTML, CSS, Bootstrap (Udemy)</p>
+            </div>
+            <div class="certification-card">
+                <h3>Core Java</h3>
+                <p>GeeksforGeeks</p>
+            </div>
+            <div class="certification-card">
+                <h3>Data Science and Machine Learning</h3>
+                <p>Udemy</p>
+            </div>
+            <div class="certification-card">
+                <h3>Python Development Professional Certificate</h3>
+                <p>Udemy</p>
+            </div>
+            <div class="certification-card">
+                <h3>User Experience Design - UI/UX App Design with Figma</h3>
+                <p>Udemy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me: <a href="https://www.linkedin.com/in/yanamandra-pavan-kumar">LinkedIn</a> | <a href="https://github.com/yanamndra-pavankumarsharma">GitHub</a></p>
+    </footer>
+
+</body>
+</html>

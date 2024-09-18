@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yanamandra Pavan Kumar | Projects</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #d6c9b5, #009688);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            animation: gradientAnimation 15s ease infinite;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Container styling */
+        .container {
+            padding: 80px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Project section styling */
+        .section-content {
+            background-color: #fff;
+            padding: 20px;
+            margin: 40px auto;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section-content img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .section-content:hover img {
+            transform: scale(1.1);
+        }
+
+        .section-content .description {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            transform: translateY(100%);
+            transition: transform 0.5s ease;
+        }
+
+        .section-content:hover .description {
+            transform: translateY(0);
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animation */
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="skills.html">Technical Skills</a>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="section-content">
+            <img src="apple.jpg" alt="StayYoung Nutrition App">
+            <div class="description">
+                <h3>StayYoung Nutrition App</h3>
+                <p>Developed a comprehensive Android app using Java and Android Studio, featuring functionalities like user interaction, data management, and real-time updates.<br> Utilized Android's native libraries and APIs to build key features such as user authentication, data storage with SQLite, and notifications. <br>Designed a responsive UI with XML and integrated backend services via RESTful APIs</p>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="section-content">
+            <img src="bmi.jpg" alt="Smart BMI and Calorie Calculator">
+            <div class="description">
+                <h3>Smart BMI and Calorie Calculator</h3>
+                <p>For this project, I utilized Python full stack development. I used Flask for the backend, HTML/CSS for the frontend, and SQLAlchemy to manage user data without the need for a separate database setup. <br>
+                    This approach allowed for efficient data storage and real-time personalized calculations. </p>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="section-content">
+            <img src="rock.jpeg" alt="Rock-Paper-Scissors Game">
+            <div class="description">
+                <h3>Rock-Paper-Scissors Game</h3>
+                <p>Developed a Rock, Paper, Scissors game using HTML, CSS, and JavaScript. HTML structures the game interface, CSS styles it for a clean look, and JavaScript handles the game logic and user interactions. <br>
+                    The game lets players choose between rock, paper, or scissors and displays the result in real-time..</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me: <a href="https://www.linkedin.com/in/yanamandra-pavan-kumar">LinkedIn</a> | <a href="https://github.com/yanamndra-pavankumarsharma">GitHub</a></p>
+    </footer>
+
+</body>
+</html>

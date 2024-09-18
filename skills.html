@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yanamandra Pavan Kumar | Skills</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #d6c9b5, #009688);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #004d40;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            padding: 14px 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #00796b;
+            color: white;
+        }
+
+        .container {
+            padding: 80px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #fff;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .skills-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .skill-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            position: relative;
+            overflow: hidden;
+            animation: slideInUp 1s ease-in-out;
+        }
+
+        .skill-card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .skill-card p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .progress-container {
+            position: relative;
+            height: 8px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: #009688;
+            width: 0;
+            border-radius: 5px;
+            animation: grow 1.5s ease-in-out forwards;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes grow {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004d40;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="skills.html">Technical Skills</a>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-section">
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Proficient in Python programming for various applications including data science, web development, and automation.</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Django</h3>
+                    <p>Experienced with Django framework for building robust web applications with clean and maintainable code.</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Flask</h3>
+                    <p>Skilled in using Flask for lightweight web applications with efficient routing and easy integration.</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>HTML/CSS</h3>
+                    <p>Strong command of HTML and CSS for creating responsive and visually appealing web designs.</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Bootstrap</h3>
+                    <p>Proficient in using Bootstrap for developing mobile-first and responsive websites with pre-defined components.</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <!-- New Skill Sections -->
+                <div class="skill-card">
+                    <h3>Java</h3>
+                    <p>Expertise in Java programming for building scalable and efficient applications across various platforms.</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Proficient in JavaScript for creating dynamic and interactive web applications, with knowledge of ES6+ features.</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Basics of Machine Learning</h3>
+                    <p>Foundational understanding of machine learning concepts, including supervised and unsupervised learning techniques.</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Data Science</h3>
+                    <p>Knowledge of data science principles including data analysis, visualization, and statistical modeling.</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me: <a href="https://www.linkedin.com/in/yanamandra-pavan-kumar">LinkedIn</a> | <a href="https://github.com/yanamndra-pavankumarsharma">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
